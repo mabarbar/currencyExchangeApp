@@ -11,6 +11,32 @@ body {
   flex-direction: column;
   padding: 2em;
   height: 100vh;
-  font-family: "Open Sans", sans-serif;
-  background-color: #079bf1;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(hsl(218, 30%, 20%), hsl(218, 25%, 15%));
+}
+
+div.wrapper {
+  background: linear-gradient(hsl(219, 14%, 20%), hsl(219, 13%, 25%));
+  padding: 5em 8em;
+  border-radius: 1.5em;
+  box-shadow: 0px 0px 10px 3px hsl(218, 40%, 10%);
+}
+
+p, h1 {
+  color: #fff;
+  padding: 0.25em;
+  text-align: center;
+  /* border: red 1px solid; */
+}
+
+input {
+	border: 1px red solid;
+}
+
+span {
+	border: 1px red solid;
+}
+
+.bold {
+  font-weight: bold;
 }

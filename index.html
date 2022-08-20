@@ -5,10 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currency calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    
+    <div class="wrapper">
+      <h1 class="bold">Exchange Rate App</h1>
+      <p>Check current currency rates:</p>
+
+      <div class="app-body">
+        <div class="section-left">
+          <input type="number" class="first-box" value="1" />
+          <select id="currency-one">
+            <option value="PLN" selected>PLN</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+            <option value="CHF">CHF</option>
+            <option value="EUR">EUR</option>
+          </select>
+        </div>
+
+        <button class="swap"></button>
+
+        <div class="section-left">
+          <input type="number" class="first-box" value="1" />
+          <select id="currency-one">
+            <option value="PLN" selected>PLN</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+            <option value="CHF">CHF</option>
+            <option value="EUR">EUR</option>
+          </select>
+        </div>
+      </div>
+      
+      <p class="rate-info"></p>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
