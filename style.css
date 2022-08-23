@@ -34,12 +34,12 @@ div.wrapper {
   align-items: center;
 }
 
-.section-left{
+.section-left {
   display: flex;
   flex-direction: column;
 }
 
-.section-right{
+.section-right {
   display: flex;
   flex-direction: column;
 }
@@ -52,11 +52,23 @@ h1 {
 }
 
 button {
-  background: linear-gradient(135deg, #9ef9d8, #caf6bf);
-  border: solid 1px #caf6bf;
-  height: 3em;
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, hsl(158, 88%, 80%), hsl(108, 75%, 86%));
+  border: solid 1px hsl(108, 75%, 86%);
+  height: 2.5em;
   width: 5em;
   margin: 2em;
+  border-radius: 2em;
+  align-self: flex-end;
+}
+
+button:hover {
+  background: linear-gradient(
+    45deg,
+    hsla(158, 88%, 80%, 0.8),
+    hsl(108, 75%, 86%, 0.8)
+  );
+  border: solid 1px hsl(108, 75%, 86%, 0.8);
 }
 
 input {
@@ -84,6 +96,10 @@ select {
   background: transparent;
   border: transparent;
   color: #fff;
+}
+
+option {
+  background: hsl(218, 40%, 10%);
 }
 
 span {
