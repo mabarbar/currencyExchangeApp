@@ -34,14 +34,11 @@ div.wrapper {
   align-items: center;
 }
 
-.section-left {
+.section-left, .section-right, .section-down{
   display: flex;
   flex-direction: column;
-}
-
-.section-right {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 p,
